@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/plantNameTxt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Plant Name"
+        android:textAlignment="center"
+        android:textSize="30dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/mapImg"
+        android:layout_width="match_parent"
+        android:layout_height="175dp"
+        android:layout_marginTop="10dp"
+        app:srcCompat="@drawable/garden" />
+
+    <ImageView
+        android:id="@+id/calendarImg"
+        android:layout_width="match_parent"
+        android:layout_height="175dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        app:srcCompat="@drawable/calendar" />
+
+    <Button
+        android:id="@+id/waterButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Water" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/homeButton"
+            android:layout_width="130dp"
+            android:layout_height="42dp"
+            android:text="Home"
+            android:layout_weight="1"/>
+
+        <Button
+            android:id="@+id/backButton"
+            android:layout_width="130dp"
+            android:layout_height="42dp"
+            android:text="Back"
+            android:layout_weight="1"/>
+
+    </LinearLayout>
+
+</LinearLayout>
