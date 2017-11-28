@@ -1,0 +1,12 @@
+attached are two activities: WaterPlant and WaterLog
+
+along with their respective .java and .xml files, the screens will require the .png image sources
+currently named "calendar.png" and "garden.png"- both of these images are of course static fillers
+so they are not critical
+
+right now, the username and date passed into the WaterLog activity are both hardcoded- if we are 
+implementing a fully-functional login with this iteration of the project, the hardcode should be
+changed, otherwise it is fine
+
+similarly, the WaterLog activity contains dummyRecords to populate the list of recent waterings
+so that when the user presses the water button, they are not the only record that shows up
